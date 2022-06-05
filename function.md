@@ -41,5 +41,13 @@ bot.world // currentWorld of bot
 bot.status // status of bot
 bot.x // pos x of bot
 bot.y // pos y of bot
-``
+```
+
+Example :
+```lua
+for _, bot in pairs(getBots()) do
+  say(bot.name)
+  sleep(4000)
+end
+```
 
