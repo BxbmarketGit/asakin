@@ -14,9 +14,9 @@
 
 ## getBot
 
-```
-getBot() // local bot
-getBot("targetbotname") // targetbot
+`getBot() // local bot`
+
+`getBot("targetbotname") // targetbot`
 getBot().name // bot name
 getBot().world // currentWorld of bot
 getBot().status // status of bot
