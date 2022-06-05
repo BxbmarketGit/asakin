@@ -15,17 +15,31 @@
 ## getBot
 
 ```
-getBot() // local bot`
-getBot(string namebot) // targetbot
+getBot() // local bot
+getBot("targetbotname") // targetbot
 getBot().name // bot name
-getBot().world // curentWorld of bot
+getBot().world // currentWorld of bot
 getBot().status // status of bot
+getBot().x // pos x of bot
+getBot().y // pos y of bot
 ```
 
 Example :
 ```lua
 say(getBot().name)
 say(getBot().world)
-say(getBot("NameBot").world)
+say(getBot("NameBot").world
 ```
+
+
+## getBots
+
+```lua
+getBots()
+bot.name // bot name
+bot.world // currentWorld of bot
+bot.status // status of bot
+bot.x // pos x of bot
+bot.y // pos y of bot
+``
 
