@@ -51,3 +51,12 @@ for _, bot in pairs(getBots()) do
 end
 ```
 
+
+## sendPacket
+`sendPacket(int type, string action`
+
+Example :
+```lua
+sendPacket(3, "action")
+```
+
