@@ -14,7 +14,8 @@
 
 ## getBot
 
-```getBot() // local bot
+```
+getBot() // local bot`
 getBot(string namebot) // targetbot
 getBot().name // bot name
 getBot().world // curentWorld of bot
@@ -24,6 +25,7 @@ getBot().status // status of bot
 Example :
 ```lua
 say(getBot().name)
+say(getBot().world)
 say(getBot("NameBot").world)
 ```
 
