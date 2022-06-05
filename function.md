@@ -12,17 +12,24 @@
 * [getPlayers]()
 * 
 
+
+
 ## getBot
 
 `getBot() // local bot`
 
 `getBot("targetbotname") // targetbot`
-getBot().name // bot name
-getBot().world // currentWorld of bot
-getBot().status // status of bot
-getBot().x // pos x of bot
-getBot().y // pos y of bot
-```
+
+`getBot().name // bot name`
+
+`getBot().world // currentWorld of bot`
+
+`getBot().status // status of bot`
+
+`getBot().x // pos x of bot`
+
+`getBot().y // pos y of bot`
+
 
 Example :
 ```lua
@@ -32,16 +39,21 @@ say(getBot("NameBot").world
 ```
 
 
+
 ## getBots
 
-```lua
-getBots()
-bot.name // bot name
-bot.world // currentWorld of bot
-bot.status // status of bot
-bot.x // pos x of bot
-bot.y // pos y of bot
-```
+`getBots()`
+
+`bot.name // bot name`
+
+`bot.world // currentWorld of bot`
+
+`bot.status // status of bot`
+
+`bot.x // pos x of bot`
+
+`bot.y // pos y of bot`
+
 
 Example :
 ```lua
@@ -52,6 +64,7 @@ end
 ```
 
 
+
 ## sendPacket
 `sendPacket(int type, string action`
 
@@ -59,4 +72,7 @@ Example :
 ```lua
 sendPacket(3, "action")
 ```
+
+
+## getPlayers
 
