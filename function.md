@@ -21,6 +21,9 @@ getBot().world // curentWorld of bot
 getBot().status // status of bot
 ```
 
+Example :
 ```lua
-sleep(200)
+say(getBot().name)
+say(getBot("NameBot").world)
 ```
+
